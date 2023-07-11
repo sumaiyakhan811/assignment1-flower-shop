@@ -4,8 +4,9 @@
     padding: 0;
     /* font-family: 'Open Sans', sans-serif; */
 }
-p{
-color: #27272799
+
+p {
+    color: #27272799
 }
 
 .primary-btn-color {
@@ -64,7 +65,7 @@ color: #27272799
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 .hot-deal-left {
@@ -72,50 +73,111 @@ color: #27272799
     padding-left: 100px;
     padding-top: 40px;
 }
-.hot-deal-title{
-padding-bottom: 30px ;
+
+.hot-deal-title {
+    padding-bottom: 30px;
 }
 
-.hot-deal-desc{
-padding-bottom: 30px ;
+.hot-deal-desc {
+    padding-bottom: 30px;
 }
 
 
-.hot-deal-img{
-width: 200px;
-height: 300px;
-flex-shrink: 0;
-align-items: center;
-padding-right: 150px;
-padding-top: 40px;
+.hot-deal-img {
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-right: 150px;
+    padding-top: 40px;
 }
 
-.container-insta{
-text-align: center;
-margin: 40px;
+.container-insta {
+    text-align: center;
+    margin: 40px;
 }
 
-.insta-text{
-text-align: center;
-margin: 50px;
+.insta-text {
+    text-align: center;
+    margin: 50px;
 }
 
-.insta-desc{
-margin-top: 20px;
+.insta-desc {
+    margin-top: 20px;
 }
 
-.insta-image{
-display: flex;
-justify-content: center;
-gap:15px;
+.insta-image {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
-.inst-img{
-width:290px;
+.inst-img {
+    width: 290px;
 
-margin-bottom: 40px;
+    margin-bottom: 40px;
 
 }
+
+.container-latest-deals {
+    text-align: center;
+    background-image: url(./Flower\ Assets/Rectangle9.png);
+    background-repeat: no-repeat;
+    height: 449px;
+    padding-top: 10%;
+    width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+    margin-bottom: -120px;
+}
+
+.email {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.email-input {
+    width: 600px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+}
+
+.email-input::placeholder {
+    padding-left: 20px;
+}
+
+.btn-email {
+    height: 55px;
+    width: 100px;
+}
+
+.footer-info {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+
+    height: 200px;
+    padding-top: 80px;
+}
+
+.copyright-text {
+    font-size: 10px;
+    color: #FFFFFFE5;
+    padding-top: 20px;
+}
+
+.footer-desc {
+    color: #FFFFFFE5;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
 /* .image-part{
 display: flex;
 align-items: center;
