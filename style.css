@@ -4,6 +4,9 @@
     padding: 0;
     /* font-family: 'Open Sans', sans-serif; */
 }
+p{
+color: #27272799
+}
 
 .primary-btn-color {
     background-color: #E55473;
@@ -52,3 +55,86 @@
     height: 700px;
 
 }
+
+
+/* main part styles */
+
+.container-hot-deals {
+    background-color: #E554730D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.hot-deal-left {
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.hot-deal-title{
+padding-bottom: 30px ;
+}
+
+.hot-deal-desc{
+padding-bottom: 30px ;
+}
+
+
+.hot-deal-img{
+width: 200px;
+height: 300px;
+flex-shrink: 0;
+align-items: center;
+padding-right: 150px;
+padding-top: 40px;
+}
+
+.container-insta{
+text-align: center;
+margin: 40px;
+}
+
+.insta-text{
+text-align: center;
+margin: 50px;
+}
+
+.insta-desc{
+margin-top: 20px;
+}
+
+.insta-image{
+display: flex;
+justify-content: center;
+gap:15px;
+}
+
+.inst-img{
+width:290px;
+
+margin-bottom: 40px;
+
+}
+/* .image-part{
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.image1{
+background-color: #A7216226;
+border-top-left-radius: 350px;
+border-top-right-radius: 350px;
+
+ margin: auto;
+
+}
+
+.image2{
+background-color:#0597A026 ;
+}
+.image3{
+background-color:#477D1126;
+} */
