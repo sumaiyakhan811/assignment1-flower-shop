@@ -54,7 +54,7 @@ p {
 
 .header-img {
     width: 600px;
-    height: 700px;
+    height: 670px;
 
 }
 
@@ -196,15 +196,19 @@ p {
     width: 100%;
     margin: auto;
 }
-
+.tulip{
+width: 270px;
+height: 370px;
+}
 .image1 {
-
+text-align:center ;
     background-color: #A7216226;
     border-top-left-radius: 350px;
-    border-top-right-radius: 350px;
-    width: 320px;
+    border-top-right-radius:350px;
+    width: 314px;
     height: 371px;
     margin: auto;
+   
 }
 
 .image2 {
